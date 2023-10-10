@@ -1,3 +1,10 @@
+![Untitled Diagram (3) drawio](https://github.com/david123410/POSTEST2/assets/144750420/0cb53a4b-d836-4a20-84d6-9c325666278c)
+![image_2023-10-10_120858922](https://github.com/david123410/POSTEST2/assets/144750420/73ef6531-58c2-4a6f-ad32-7449fb8e7b5e)
+ini output jika kita menjadi admin dan menggunakan read dan create hasilnya akan print tabel dan akan membuat baris baru 
+![image_2023-10-10_121141218](https://github.com/david123410/POSTEST2/assets/144750420/cdf5ae3d-3de6-46eb-89bd-14cdee75081a)
+ini output yang dihasilkan jika kita menggunakan update,baris yang dipilih isinya akan diganti dan diprint tabel yang baru
+![image_2023-10-10_143316112](https://github.com/david123410/POSTEST2/assets/144750420/ca3a36a4-e1a0-4122-8ef5-8bb1c5400b31)
+untuk pembeli milik saya belum jadi, saya sudah coba berbagai cara tapi tidak bisa menghasilkan output yang diinginkan :( 
 # POSTEST2
 Tugas postest david sebastian sutandy kedua
 from prettytable import PrettyTable
@@ -7,6 +14,7 @@ tabel.field_names = ["Ukuran (Dalam Gram)","Brand","Harga"]
 tabel.add_row(["120","Indomaret","18000"])
 tabel.add_row(["170","IkanPipih","35000"])
 tabel.add_row(["350","5Bintang","80000"])
+
 tabel.add_row(["450","DuaIkan","113000"])
 #pilih jadi pembeli atau admin
 def pilih():
